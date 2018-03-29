@@ -1,7 +1,7 @@
 @charset "UTF-8";
 * {
   font-family: "MS 明朝",serif;
-  background-color: #A4A4A4;
+  background-color: #D8D8D8;
 }
 .header h1 {
   color:
@@ -15,5 +15,9 @@
   font-size: 18px;
 }
 a:hover {
-  color: #2E2EFE;
+  color: #0080FF  ;
+}
+.main ul a {
+  text-decoration: none;
+}
 }
