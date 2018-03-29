@@ -1,7 +1,12 @@
 @charset "UTF-8";
 * {
   font-family: "MS 明朝",serif;
-  background-color: #D8D8D8;
+}
+body {
+ background-color: #fcfcfc;
+ background-image: radial-gradient(#eee 10%, transparent 20%), radial-gradient(#eee 10%, transparent 20%);
+ background-size: 20px 20px;
+ background-position: 0 0, 10px 10px;
 }
 .header h1 {
   color:
