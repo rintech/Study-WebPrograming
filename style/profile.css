@@ -1,0 +1,46 @@
+@charset "UTF-8";
+* {
+  font-family: "MS 明朝",serif;
+  text-align: center;
+}
+
+body {
+ background-color: #fcfcfc;
+ background-image: radial-gradient(#eee 10%, transparent 20%), radial-gradient(#eee 10%, transparent 20%);
+ background-size: 20px 20px;
+ background-position: 0 0, 10px 10px;
+}
+.header {
+  padding: 0px;
+  margin: 10px 0px 50px 10px;
+}
+.header h1 {
+
+}
+.header a {
+  text-decoration: none;
+  color: black;
+}
+.header p {
+  font-size: 19px;
+}
+a:hover {
+  color: #0080FF  ;
+}
+.main ul, ol {
+  padding: 0px 400px 0px 400px;
+  position: relative;
+}
+.main ul li, ol li {
+  color: #2d8fdd;
+  border-left: solid 6px #2d8fdd;/*左側の線*/
+  background: #E0F8F7;/*背景色*/
+  margin-bottom: 8px;/*下のバーとの余白*/
+ 	line-height: 1.5;
+  	padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+}
+.main ul a {
+  text-decoration: none;
+}
+}
